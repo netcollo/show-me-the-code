@@ -3,7 +3,7 @@ import sys
 
 from PIL import Image, ImageDraw, ImageFont
 im = Image.open("./img/avatar.jpg")
-
+print(im)
 draw = ImageDraw.Draw(im)
 font = ImageFont.truetype(font=r"C:\Windows\Fonts\arial.ttf", size=40)
 
